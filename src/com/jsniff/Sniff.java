@@ -24,7 +24,7 @@ public class Sniff {
 	 * the ten threads, one sub-range per thread.
 	 */
 	static int[][] createSubRanges ( int b, int e ) {
-		int[][] sub_ranges = new int[10][2];
+		int[][] sub_ranges = new int[ 10 ][ 2 ];
 		int beg = b;
 		int end = e;
 		final int range = ( end - beg ) / 10;
@@ -64,7 +64,7 @@ public class Sniff {
 			catch ( InterruptedException e ) {}
 		}
 		if ( tcparr.size() <= 0 ) {
-			System.out.println("No TCP Ports were found");
+			System.out.println( "No TCP Ports were found" );
 		} else {
 			Collections.sort(tcparr);
 			for( int i = 0; i < tcparr.size(); i++)
@@ -112,10 +112,10 @@ public class Sniff {
 		}
 		if ( Integer.parseInt( args[ 3 ] ) > 65535 ) {
 			System.out.println( "\nPlease enter an ending port from 1 to 65535\n" );
-			System.exit(1);
+			System.exit( 1 );
 		}
 		
-		String ip = args[1];
+		String ip = args[ 1 ];
 		int beg   = Integer.parseInt( args[ 2 ] );
 		int end   = Integer.parseInt( args[ 3 ] );
 	
