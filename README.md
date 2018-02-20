@@ -1,5 +1,6 @@
 # jSniff
 A Simple Java Port Sniffer
+[![GitHub version](https://badge.fury.io/gh/nsardo%2FjSniff.svg)](https://badge.fury.io/gh/nsardo%2FjSniff)
 
 ## Command Signature: ##
 
