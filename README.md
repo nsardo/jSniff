@@ -28,3 +28,6 @@ port 81 is not open.
 There is a TCP port open at: 80
 
 And the total time it took for the scan.
+
+## Clone, download the zip, or just grab the jar file from the release:
+[RELEASE](https://github.com/nsardo/jSniff/releases)
